@@ -1,0 +1,62 @@
+
+.container{
+    display: flex;
+}
+.form_cont{
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 40px;
+}
+/* #male,#female{
+    position: relative;
+    right: 200px;
+} */
+
+/* .genderDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+} */
+.genderDiv{
+    /* display: flex;
+    flex-direction: ;
+    justify-content: space-around; */
+    margin-bottom: 40px;
+}
+.submit{
+    background-color: rgb(58, 58, 58);
+    width: 100px;
+    position: relative;
+    left: 140px;
+    height:40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+.data_cont{
+    width: 75vw;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+table{
+    background-color: lightgray;
+}
+.datas{
+    
+    justify-content: center;
+    padding-top: 15px;
+    padding-right: 65px;
+    padding-left: 2px;
+    padding-bottom: 15px;
+    height: 15px;
+}
+th{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}

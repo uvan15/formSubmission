@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./formSubmission.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form_cont">
+            <h1>Form Submission:</h1>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName"><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName"><br>
+
+            <label for="addr1">Address Line 1:</label>
+            <input type="text" id="addr"><br>
+
+            <label for="pin">PIN:</label>
+            <input type="text" id="pin"><br>
+
+            <div class="genderDiv">
+            <label for="gender" id="gen">Gender:</label><br>
+            <input type="radio" class="gender" name="gender" value="Male" checked>
+            <label for="male">Male</label><br>
+            <input type="radio" class="gender" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            </div>
+            
+            <div class="foodDiv">
+            <label for="food">Choice of Food: <i>(must choose at least 1)</i></label><br>
+            <input type="checkbox" class="North food" name="food" value="NorthIndian">
+            <label for="food"> North Indian</label><br>
+            <input type="checkbox" class="South food" name="food" value="SouthIndian">
+            <label for="food"> South Indian</label><br>
+            <input type="checkbox" class="chine food" name="food" value="Chinese">
+            <label for="food"> Chinese</label><br><br><br>
+            </div>
+            
+
+            <label for="state">State:</label>
+            <input type="text" id="state"><br>
+
+            <label for="country">Country</label>
+            <input type="text" id="country"><br>
+
+            <button class="submit">Submit</button>
+
+        </div>
+        <div class="data_cont">
+            <h1>Temporary Database</h1>
+            <table class="data">
+                <tr>
+                    <th class="datas">First Name</th>
+                    <th class="datas">Last Name</th>
+                    <th class="datas">Address</th>
+                    <th class="datas">Pincode</th>
+                    <th class="datas">Gender</th>
+                    <th class="datas">Food</th>
+                    <th class="datas">State</th>
+                    <th class="datas">Country</th>
+                </tr>
+                <!-- <tr>
+                    <td class="datas">hi</td>
+                    <td class="datas">hi</td>
+                    <td class="datas">hi</td>
+                    <td class="datas">hi</td>
+                    <td class="datas">hi</td>
+                    <td class="datas">hi</td>
+                    <td class="datas">hi</td>
+                    <td class="datas">hi</td>
+                </tr> -->
+            </table>
+        </div>
+    </div>
+    <script src="./formSubmission.js"></script>
+</body>
+</html>
